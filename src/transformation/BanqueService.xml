@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BanqueService xmlns:tns="http://www.example.org/ServiceBanque" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/ServiceBanque ServiceBanque.xsd ">
+  <conversion>
+    <montant>8</montant>
+  </conversion>
+  <getComptes>
+    <solde>45</solde>
+    <code>7</code>
+    <dataCreation>2001-01-01</dataCreation>
+  </getComptes>
+  <getComptes>
+    <solde>50</solde>
+    <code>99</code>
+    <dataCreation>2008-01-01</dataCreation>
+  </getComptes>
+  <getComptes>
+    <solde>45</solde>
+    <code>7</code>
+    <dataCreation>1923-01-01</dataCreation>
+  </getComptes>
+  <getCompte>
+    <solde>44</solde>
+    <code>1</code>
+    <dataCreation>1993-01-01</dataCreation>
+  </getCompte>
+</BanqueService>
